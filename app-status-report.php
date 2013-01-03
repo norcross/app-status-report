@@ -4,7 +4,7 @@ Plugin Name: App Status Report
 Plugin URI: http://andrewnorcross.com/plugins/app-status-report/
 Description: A plugin to provide a CPT and JSON file for your web app
 Author: Andrew Norcross
-Version: 1.0
+Version: 0.1
 Requires at least: 3.5
 Author URI: http://andrewnorcross.com
 */
@@ -32,7 +32,7 @@ if(!defined('APR_BASE'))
 	define('APR_BASE', plugin_basename(__FILE__) );
 
 if(!defined('APR_VER'))
-	define('APR_VER', '1.0');
+	define('APR_VER', '0.1');
 
 class App_Status_Report
 {
